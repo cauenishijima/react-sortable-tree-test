@@ -1,0 +1,35 @@
+{
+  "accounts": [
+    {
+      "id": "1",
+      "company_id": "1",
+      "code": 1,
+      "name": "ATIVO",
+      "level": 1,
+      "accountId": null,
+      "type": "SINTETICO"
+    },
+    {
+      "id": "2",
+      "company_id": "1",
+      "code": 2,
+      "name": "ATIVO CIRCULANTE",
+      "level": 1,
+      "accountId": "1",
+      "type": "SINTETICO",
+      "parent_id": null,
+      "FinancialAccount": []
+    },
+    {
+      "id": "3",
+      "company_id": "1",
+      "code": 3,
+      "name": "ATIVO DISPONÍVEL",
+      "level": 2,
+      "accountId": "1",
+      "type": "SINTETICO",
+      "parent_id": "1",
+      "FinancialAccount": []
+    }
+  ]
+}
